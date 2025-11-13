@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Post Manager",
-  description: "Manage your posts with ease",
+  title: "Movie Manager",
+  description: "Manage your movies with ease",
 };
 
 export default function RootLayout({
