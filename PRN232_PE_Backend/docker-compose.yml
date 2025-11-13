@@ -3,13 +3,13 @@
 version: '3.8'
 
 services:
-  prn232-assignment1-api:
+  prn232-pe-backend-api:
     build: .
-    container_name: prn232-assignment1-api
+    container_name: prn232-pe-backend-api
     restart: always
     ports:
       - "5291:5291"
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:5291
-    command: ["dotnet", "PRN232_Assignment1.dll"]
+    command: ["dotnet", "PRN232_PE_Backend.dll"]
